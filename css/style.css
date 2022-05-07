@@ -283,6 +283,10 @@ button {
     border-radius: 15px;
  }
 
+ .buy_bt:hover {
+     background: yellow;
+ }
+
  .more_bt{
 	width: 32%;
 	height: 50px;
@@ -292,6 +296,10 @@ button {
 	font-size: 22pt;
 	margin-left: 25px;
     border-radius: 15px;
+ }
+
+ .more_bt:hover {
+     background: navy;
  }
 
 .banner_taital{
