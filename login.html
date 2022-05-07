@@ -70,11 +70,12 @@
           <label>Password:-</label>
           <input class="form-control" name="userPassword" id="userPassword" type="password"
             placeholder=" Enter your userPassword" />
-        </div> 
-        <input type="checkbox" class="checkbox"> Remember Me  <br> <hr> 
-         <a class="forgot pull-right" href="#">Forgot Password?</a>
+        </div>
+        <input type="checkbox" class="checkbox"> Remember Me <br>
+        <hr>
+        <a class="forgot pull-right" href="#">Forgot Password?</a>
         <br><br>
-<button type="submit" id="login">Login</button>
+        <button type="submit" id="login">Login</button>
     </div>
     </form>
   </div>
@@ -161,10 +162,14 @@
   <!-- section footer end -->
   <div class="copyright">&copy; 2022 All Rights Reserved. <a
       href="https://github.com/ANGADMADHEPURA/Web-Project-College">Design by Balvinder Singh & Angad Mandal</a></div>
-      <script>
+  <script>
 
-alert("Note:- DO NOT SHARE PERSONAL DETAILS Username & Password!!")
-      </script>
+    alert("Note:- DO NOT SHARE PERSONAL DETAILS Username & Password!!")
+
+    setTimeout(function () {
+      window.location.reload(1);
+    }, 30000);
+  </script>
 
 </body>
 
