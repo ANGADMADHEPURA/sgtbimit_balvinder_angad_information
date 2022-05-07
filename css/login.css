@@ -1,17 +1,41 @@
 
 
-button {
+/* button {
     cursor: pointer;
-    background: hsla(180, 97%, 48%, 0.89);
-    width: 80%;
-    border: 0;
-    padding: 10px 15px;
-    color: #fff;
+    background: rgba(10, 212, 23, 0.927);
+    width: 70%;
+    border: 1px outset royalblue;
+    padding: 10px;
+    color: black;
     font-size: 20px;
     align-items: center;
     
     
+  } */
+
+
+  button{
+    font-size:25px;
+    font-family:Verdana;
+    width: 1100px;
+    height:45px;
+    border-width:2px;
+    color:#ffffff;
+    border-color:#d83526;
+    font-weight:bold;
+    border-top-left-radius:18px;
+    border-top-right-radius:18px;
+    border-bottom-left-radius:18px;
+    border-bottom-right-radius:18px;
+    box-shadow:inset 1px 0px 0px 0px #f29c93;
+    text-shadow:inset 0px -40px 0px #b23e35;
+    background:#fe1a00;
   }
+  
+  button:hover {
+    background: #0a29dd;
+  }
+                
 
   .input-group {
     position: relative;
