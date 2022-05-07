@@ -285,6 +285,7 @@ button {
 
  .buy_bt:hover {
      background: yellow;
+     color: #000;
  }
 
  .more_bt{
